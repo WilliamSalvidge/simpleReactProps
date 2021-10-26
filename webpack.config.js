@@ -75,8 +75,8 @@ module.exports = {
   // Plugins //
   plugins: [
     new HtmlWebpackPlugin({
-      filename: "propsExample.html",
-      template: "./app/index.html"
+      filename: "index.html",
+      template: "./app/index-template.html"
     })
   ],
   // Loaders //
